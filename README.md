@@ -1,16 +1,18 @@
 # React-Hooks-Checkpoint
 
 Votre Objectif
+
 Dans ce point de contrôle, nous allons créer une application de cinéma où vous pourrez présenter vos films ou émissions de télévision préférés. Nous pourrons également utiliser les hooks react.
 
 
 Instructions
-Créer les composants suivants:
-  MovieCard
-  MovieList
-  Filtre ( titre, note)
-  Chaque film doit avoir les attributs suivants : titre, description, posterURL, note
-L'utilisateur doit pouvoir:
-  Ajouter un nouveau film.
-  Filtrer les films avec le titre/la note.
+
+  - Créer les composants suivants:
+    MovieCard
+    MovieList
+    Filtre ( titre, note)
+    Chaque film doit avoir les attributs suivants : titre, description, posterURL, note
+  - L'utilisateur doit pouvoir:
+    Ajouter un nouveau film.
+    Filtrer les films avec le titre/la note.
 
