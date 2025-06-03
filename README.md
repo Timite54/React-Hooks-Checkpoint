@@ -1,18 +1,12 @@
-# React-Hooks-Checkpoint
+# React + Vite
 
-Votre Objectif
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Dans ce point de contrôle, nous allons créer une application de cinéma où vous pourrez présenter vos films ou émissions de télévision préférés. Nous pourrons également utiliser les hooks react.
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Instructions
+## Expanding the ESLint configuration
 
-  - Créer les composants suivants:
-    MovieCard
-    MovieList
-    Filtre ( titre, note)
-    Chaque film doit avoir les attributs suivants : titre, description, posterURL, note
-  - L'utilisateur doit pouvoir:
-    Ajouter un nouveau film.
-    Filtrer les films avec le titre/la note.
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
